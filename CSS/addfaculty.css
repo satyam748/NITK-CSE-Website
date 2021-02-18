@@ -1,0 +1,43 @@
+body,
+html {
+  background-color: whitesmoke;
+  padding: 30px;
+}
+input,
+textarea {
+  outline: 0;
+  font-family: Tahoma;
+}
+.contact input[type="text"],
+.contact input[type="Email"] {
+  display: block;
+  flex-wrap: inherit;
+  margin-top: 15px;
+  padding: 15px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.contact textarea {
+  resize: none;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid black;
+  width: 600px;
+  height: 250px;
+}
+
+.contact input[type="submit"] {
+  display: block;
+  margin-top: 30px;
+  padding: 15px;
+  border: 0;
+  background-color: blueviolet;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+}
+.contact input[type="submit"]:hover {
+  background-color: #3670b3;
+}
